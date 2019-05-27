@@ -66,7 +66,7 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
+header .profile-image, .joker {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -75,6 +75,9 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+header .joker:hover {
   transform: scale(8, 8);
   transition: 3s;
 }
